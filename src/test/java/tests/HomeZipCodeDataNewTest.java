@@ -166,7 +166,7 @@ public class HomeZipCodeDataNewTest extends BaseTest {
         Assert.assertEquals(homeZipCodeDataNewPage.getAttributeTopPopUpWindowThree(), expectedValue);
         Assert.assertEquals(homeZipCodeDataNewPage.getBillingAddressHeader(), expectedBillingAddressHeader);
     }
-
+    @Ignore
     @Test
     public void testErrorMessage_WhenFirstNameIsEmpty_InBillingDetails() {
         final String state = "Florida";

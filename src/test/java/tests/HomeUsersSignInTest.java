@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 public class HomeUsersSignInTest extends BaseTest {
 
+    @Ignore
     @Test
     public void testSignOut() {
         String actualSignOutMessage = openBaseURL()

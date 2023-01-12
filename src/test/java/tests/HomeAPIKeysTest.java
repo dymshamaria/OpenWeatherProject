@@ -11,7 +11,6 @@ public class HomeAPIKeysTest extends BaseTest {
 
     final static String API_KEYS_NAME = String.valueOf(UUID.randomUUID()).substring(0, 8);
 
-    @Ignore
     @Test
     public void testAPIKeysGenerated() {
         final String expectedNotificationMessage = "API key was created successfully";
@@ -39,7 +38,6 @@ public class HomeAPIKeysTest extends BaseTest {
         Assert.assertEquals(successMessage, expectedNotificationMessage);
     }
     
-    @Ignore
     @Test(dependsOnMethods = "testAPIKeysGenerated")
     public void testAPIKeysDeleted() {
         final String expectedNotificationMessage = "API key was deleted successfully";

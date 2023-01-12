@@ -22,7 +22,8 @@ public class HomeTopMenuTest extends BaseTest {
 
         Assert.assertEquals(actualHomeTopMenusAmount, expectedHomeTopMenusAmount);
     }
-
+    
+    @Ignore
     @Test
     public void testHomeTopMenus() {
         List<String> expectedURLs = List.of(

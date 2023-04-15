@@ -8,7 +8,6 @@ import pages.CurrentWeatherPage;
 import pages.MainPage;
 import pages.TestData;
 import utils.TestUtils;
-
 import java.util.List;
 
 public class MainTest extends BaseTest {
